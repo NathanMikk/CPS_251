@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Add Name Project</string>
+    <string name="button">Add Name</string>
+    <string name="displayNames">No names to display</string>
+</resources>
