@@ -10,10 +10,14 @@ class MainViewModel : ViewModel() {
 
     fun convertValue(){
         nameText.let{
-            if(!it.value.equals("")){
-                result.value = it.value
-            }else{
-                result.value = "No names"
+            if(!it.value.isNullOrEmpty()){
+                if(result.value == null) {
+                    result.value = it.value
+                }else{
+                    result.value = it.value + "\n" + result.value
+                }
+            } else{
+                result.value = "No name entered"
             }
         }
     }
