@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NavigationDemo</string>
+    <string name="dis_img1">Display Image 1</string>
+    <string name="dis_img2">Display Image 2</string>
+    <string name="dis_img3">Display Image 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_goes_here">Title</string>
+</resources>
